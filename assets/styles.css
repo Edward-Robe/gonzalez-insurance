@@ -3,7 +3,9 @@
   font-family: 'Proxima Nova';
   src: url('./font/proxima_nova_font.otf') format('opentype');
 }
-
+body {
+  overflow-x: hidden;
+}
 .font-proxima {
   font-family: 'Proxima Nova', sans-serif;
 }
@@ -218,20 +220,14 @@ hr {
   top: 6.5rem;
   right: 0rem;
 }
-
-.services-imgs {
-  top: -23rem;
-  left: 10rem;
-}
-.services-heading {
-  left: -2rem;
-  top: 9rem;
+.services {
+  background: url(./Ellipse_5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 .services-content {
   text-align: center;
-  top: 12rem;
-  width: 18rem;
-  left: -4rem;
 }
 .founder-img {
   top: -3rem;
