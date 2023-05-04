@@ -1,0 +1,238 @@
+@media (min-width: 1920px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 1400px;
+  }
+}
+@media screen and (max-width: 1920px) {
+	.ins-sol-img {
+		width: 30rem;
+		height: auto;
+	}
+	.fs-60 {
+		font-size: 3rem;
+	}
+	.main-head {
+		width: 32rem;
+	}
+}
+
+@media screen and (max-width: 1728px) {
+	.gif-position {
+		width: 63rem;
+	}
+	.ellipse{
+		width: 55rem;
+	}
+	.call-box {
+		top: 48rem;
+	}
+	.in-sol {
+		width: 55rem;
+		height: 50rem;
+	}
+	.in-sol-head, .in-sol-main, .in-sol-card{
+		top: 15rem;
+		left: 10rem;
+	}
+	.in-sol-card{
+		width: 25rem;
+	}
+	.ms-6 {
+		margin-left: 4.5rem;
+	}
+}
+
+@media screen and (max-width: 1500px) {
+	.ins-sol-img{
+		width: 25rem;
+		height: auto;
+	}
+	.ratings {
+		width: 33rem;
+		height: 33rem;
+	}
+	.elps9 {
+		top: 13rem;
+		width: 16rem;
+	}
+	.cst-1 {
+		width: 23rem;
+		left: 6rem;
+		top: 12rem;
+	}
+	.ratings-str {
+		left: 7rem;
+		top: 5rem;
+	}
+	.name-content {
+		top: 15rem;
+		left: -4rem;
+	}
+	.recomended-content {
+		top: 17rem;
+		left: -5.2rem;
+	}
+	.services-imgs {
+		left: 8rem;
+	}
+	.ellipse {
+		width: 50rem;
+	}
+	.gif-position {
+		width: 56rem;
+	}
+	.call-box {
+		top: 42rem;
+	}
+}
+
+@media screen and (max-width: 1399px) {
+	.fs-60 {
+		font-size: 2.4rem;
+	}
+	.main-head {
+		width: 26rem;
+	}
+	.call-box{
+		top: 38rem;
+		width: 19rem;
+		right: 8rem;
+	}
+	.in-sol-card{
+		left: 3rem;
+		width: 23rem;
+		top: 12rem;
+	}
+	.gif-position {
+		top: 0rem;
+		right: 0rem;
+		width: 60%;
+	}
+	.in-sol-head{
+		top: 12rem;
+		left: 3rem;
+	}
+	.in-sol-main {
+		top: 13rem;
+		left: 3rem;
+	}
+	.ins-sol-img{
+		width: 85%;
+		height: auto;
+		display: block;
+	}
+	.ratings {
+		width: 25rem;
+		height: 25rem;
+	}
+	.elps9 {
+		width: 15rem;
+		top: 10rem;
+	}
+	.cst-1 {
+		width: 21rem;
+		left: 6rem;
+		top: 9rem;
+	}
+	.ratings-str {
+		left: 5rem;
+		top: 5rem;
+	}
+	.name-content {
+		top: 11rem;
+		left: 0rem;
+	}
+	.recomended-content {
+		top: 14rem;
+		left: -1.2rem;
+	}
+	.ms-6 {
+		margin-left: 3rem;
+	}
+	.services-imgs {
+		top: -20rem;
+		left: 4rem;
+	}
+	.services-imgs > img {
+		width: 5rem;
+		height: auto;
+		top: 3rem;
+		position: absolute;
+		left: 4rem;
+	}
+	.border-right-nav:after {
+		right: -10px;
+	}
+	.ellipse {
+		width: 44rem;
+	}
+	.bg-form{
+		width: 50rem;
+	}
+	.hero {
+		width: 37rem;
+		top: 8rem;
+	}
+	.form {
+		width: 32.2rem !important;
+	}
+	.mt-7 {
+		margin-top: 4rem !important;
+	}
+	.social-icons {
+		left: -2.5rem;
+		position: relative;
+	}
+	.yt-container {
+		width: 9rem;
+	}
+	.in-sol {
+		width: 47rem;
+		height: 43rem;
+	}
+	h4 {
+		font-size: 1.3rem;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.main-head {
+		width: 26rem;
+	}
+	.ellipse {
+		width: 37rem;
+	}
+	.call-box {
+		top: 32rem;
+	}	
+}
+
+@media screen and (max-width: 1175px) {
+	.ins-sol-img {
+		display: none;
+	}
+	.form {
+		width: 30rem !important;
+	}
+	.ms-6 {
+		margin-left: 1rem;
+	}
+	.mt-_3rem {
+		margin-top: -3rem !important;
+	}
+	.ellipse {
+		width: 33rem;
+	}
+	.call-box {
+		top: 28rem;
+	}
+	.gif-position {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 1024px) {	
+	.main-head {
+		width: 26rem;
+	}
+}
