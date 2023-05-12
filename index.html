@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
   <title>Gonzalez insurance</title>
   <link rel="stylesheet" href="./lib/bootstrap-5.0.2/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./lib/fontawesome-free-6.4.0-web/css/all.css">
@@ -16,7 +16,7 @@
       <img src="./assets/final-logo 1.png" alt="logo" width="254" height="74"/>
       <p class="font-proxima font-12 ml-7 mt-_5">Protection for what matters most</p>
     </section>
-    <section id="route" class="font-epilogue fs-5_5">
+    <section id="route" class="d-none d-lg-block font-epilogue fs-5_5">
       <div class="d-inline-block ms-4 active pt-6 pb-5 px-xl-3 px-1">
         <a class="text-black" href="#"> Home </a>
       </div>
@@ -35,48 +35,56 @@
       <div class="d-inline-block ms-1 inactive pt-6 pb-4 px-xl-3 px-1">
         <a class="text-black" href="#"> Contact </a>
       </div>
-      <div class="d-inline-block ms-2 px-xl-4 px-2 py-3 fw-bolder btn-theme-1 ">
+      <div class="d-inline-block ms-2 px-xl-4 px-2 py-3 fw-bolder btn-theme-1">
         <a class="text-black" href="#">Get a Quote</a>
       </div>
-      </section>
+    </section>
+    <section class="d-block d-lg-none mt-5 pt-2">
+      <div class="d-inline-block ms-2 px-4 py-3 fw-bolder btn-theme-1">
+        <img src="./assets/Union.png" alt="bars"/>
+      </div>
+    </section>
   </nav>
-  <section id="main-section" class="bg-light-grey font-epilogue">
-    <img src="./assets/Ellipse 4.png" alt="design" class="position-absolute ellipse"/>
-    <section class="container d-flex flex-wrap">
-      <section class="w-50 mt-5">
-        <h1 class="fw-bolder mt-5 pt-xl-5 fs-60">
-          <span class="d-block">Get the Protection</span>
-          You Need from 
-          <span class="d-block main-head ps-xl-2 ps-1 pt-1 me-5">Gonzales Insurance.</span>
-        </h1>
-        <h4 class="fw-bolder ms-2 mt-4 line-height-40">
-          Customized insurance solutions for <span class="d-block">your unique needs.</span>
-        </h4>
-        <span class="d-block fw-bolder mt-5 pt-3 ms-2">View all Services</span>
-        <hr class="d-block mt-5"/>
-        <section class="my-5 d-flex justify-content-around">
-          <p class="d-flex align-items-center">
-            <span class="fs-1 fw-bolder line-height-40 main-color">12+ </span> 
-            <span class="d-inline-block ms-1">years of Experience</span>
-          </p>
-          &nbsp;
-          <p class="d-flex align-items-center">
-            <span class="fs-1 fw-bolder line-height-40 main-color"> 100% </span>
-            <span class="d-inline-block ms-1">&nbsp;Customer Satisfaction</span>
-          </p>
+  <section id="main-section" class="bg-light-grey font-epilogue hero-bg">
+    <section class="container">
+      <section class="row">
+        <section class="mt-5 col-12 col-lg-5">
+          <h1 class="fw-bolder mt-xl-5 pt-xl-5 fs-60">
+            <span class="d-block">Get the Protection</span>
+            You Need from 
+            <span class="d-block main-head ps-xl-2 ps-1 pt-1 me-5">Gonzales Insurance.</span>
+          </h1>
+          <h4 class="fw-bolder ms-2 mt-4 line-height-40">
+            Customized insurance solutions for your unique needs.
+          </h4>
+          <span class="d-block fw-bolder mt-5 pt-3 ms-2">View all Services</span>
+          <hr class="d-none d-lg-block mt-5"/>
+          <section class="my-5 d-none d-lg-flex justify-content-around">
+            <p class="d-flex align-items-center">
+              <span class="fs-1 fw-bolder line-height-40 main-color">12+ </span> 
+              <span class="d-inline-block ms-1">years of Experience</span>
+            </p>
+            &nbsp;
+            <p class="d-flex align-items-center">
+              <span class="fs-1 fw-bolder line-height-40 main-color"> 100% </span>
+              <span class="d-inline-block ms-1">&nbsp;Customer Satisfaction</span>
+            </p>
+          </section>
         </section>
-      </section>
-      <section>
-        <img src="./assets/Unknown-4 1.gif" alt="" class="position-absolute z-index-top gif-position">
-        <div class="position-absolute z-index-top call-box">
-          <div class="d-flex px-4 py-3">
-            <img src="./assets/_x34_1_Call_Center_Agent.png" alt="" width="60" height="60">
-            <div class="ms-3 mt-1 font-epilogue ">
-              <span class="d-block fs-6">Phone No:</span>
-              <span class="d-block fs-22 fw-bolder secondary-color">(972) 243-4293</span>
+        <section class="col-12 col-lg-6">
+          <div class="d-flex flex-column flex-wrap align-items-center">
+            <img src="./assets/Unknown-4 1.gif" alt="" class="z-index-top gif-position">
+            <div class="z-index-top call-box mb-5 ms-6">
+              <div class="d-flex px-4 py-3">
+                <img src="./assets/_x34_1_Call_Center_Agent.png" alt="" width="60" height="60">
+                <div class="ms-3 mt-1 font-epilogue ">
+                  <span class="d-block fs-6">Phone No:</span>
+                  <span class="d-block fs-22 fw-bolder secondary-color">(972) 243-4293</span>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </section>
       </section>
     </section>
   </section>
@@ -86,22 +94,22 @@
       <h1 class="fs-60 text-black fw-bolder line-height-60">Insurance Services</h1>
     </div>
     <section class="container mt-4 flex-wrap">
-      <div class="row">
-        <div class="services col-4">
+      <div class="row row-centered">
+        <div class="services col-lg-4 col-12 ms-5 mx-md-auto">
           <div class="ms-xl-5 ms-4 mt-xxl-5 mb-5 pb-5">
             <img src="./assets/car-insurance 1.png" alt="car insurance" class="ms-6 mt-5"/>
             <h3 class="fw-bolder fs-26 ms-xxl-5 ps-4 mt-xxl-3 mt-1">Auto insurance</h3>
             <span class="d-inline-block services-content ms-xxl-5 mt-xl-2 mt-1">Provide financial security for your  <br> loved ones in case of the <br> unexpected.</span>
           </div>
         </div>
-        <div class="services col-4">
+        <div class="services col-4 d-none d-lg-block">
           <div class="ms-xl-5 ms-4 mt-xxl-5 mb-5 pb-5">
             <img src="./assets/home-insurance 1.png" alt="home insurance" class="ms-6 mt-5"/>
             <h3 class="fw-bolder fs-26 ms-xxl-4 ps-4 mt-xxl-3 mt-1">Home insurance</h3>
             <span class="d-inline-block services-content ms-xxl-5 ms-1 mt-2">Safeguard your home and its <br> contents against unexpected <br> events.</span>
           </div>
         </div>
-        <div class="services col-4">
+        <div class="services col-4 d-none d-lg-block">
           <div class="ms-xl-5 mt-xxl-5 mb-5 pb-5">
             <img src="./assets/life-insurance (1) 1.png" alt="life insurance" class="ms-6 mt-5"/>
             <h3 class="fw-bolder fs-26 ms-xxl-5 ps-4 mt-xxl-3 mt-1">Life insurance</h3>
@@ -117,24 +125,24 @@
     <div class="Company history and mission statement mt-5">
       <h6 class="secondary-color fw-bolder line-height-60 letter-spacing-1 pt-5">Company history and mission statement</h6>
       <h1 class="fs-60 text-black fw-bolder line-height-60">
-        Gonzales Insurance has been <br/> committed to providing personalized <br/> service</h1>
+        Gonzales Insurance has been committed to providing personalized service</h1>
     </div>
     <section class="container mt-4">
       <div class="row">
-        <div class="mt-5 col-4">
-          <span class="fs-5_5 line-height-32">Gonzales Insurance has been committed to providing personalized service and customized insurance solutions to our customers. Our mission is to help protect what matters most to you."</span>
-          <img src="./assets/Mask group.png" alt="theme" class="mt-5 pt-4"/>
+        <div class="mt-5 col-lg-4 col-12">
+          <span class="fs-5_5 line-height-32 fw-bold">Gonzales Insurance has been committed to providing personalized service and customized insurance solutions to our customers. Our mission is to help protect what matters most to you."</span>
+          <img src="./assets/Mask group.png" alt="theme" class="mt-5 pt-4 resize-mob"/>
         </div>
-        <div class="col-8">
-          <img src="./assets/Group 28.png" alt="group" class="w-100 ms-5"/>
+        <div class="col-lg-8 col-12">
+          <img src="./assets/Group 28.png" alt="group" class="w-100 ms-md-5"/>
         </div>
       </div>
     </section>
   </section>
 
   <section id="founders" class="font-epilogue mt-5 pt-5 container">
-    <section class="row mt-4 flex-wrap">
-      <div class="d-flex col-4">
+    <section class="mt-4 row">
+      <div class="d-flex col-lg-4 col-12 ms-5 ms-md-0 ">
         <div>
           <h4 class="fw-bolder">Thomas Walkar</h4>
           <span class="fs-5_5 secondary-color fw-bolder">company founder</span>
@@ -145,7 +153,7 @@
         </div>
         <img src="./assets/thomas.png" class="position-relative founder-img"/>
       </div>
-      <div class="d-flex col-4">
+      <div class="d-flex col-lg-4 col-12 ms-5 ms-md-0">
         <div>
           <h4 class="fw-bolder">Thomas Walkar</h4>
           <span class="fs-5_5 secondary-color fw-bolder">company founder</span>
@@ -156,7 +164,7 @@
         </div>
         <img src="./assets/thomas2.png" class="position-relative founder-img"/>
       </div>
-      <div class="d-flex col-4">
+      <div class="d-flex col-lg-4 col-12 ms-5 ms-md-0">
         <div>
           <h4 class="fw-bolder">Thomas Walkar</h4>
           <span class="fs-5_5 secondary-color fw-bolder">company founder</span>
@@ -174,31 +182,33 @@
     <div class="text-center">
       <h6 class="secondary-color fw-bolder line-height-60 letter-spacing-1 pt-5">Establish trust and social proof, such as</h6>
       <h1 class="fs-60 text-black fw-bolder line-height-60">Positive Customer Reviews</h1>
-      <img src="./assets/stars.png" alt="rating" class="d-block mx-auto rating-container px-5 py-3 mt-5">
+      <img src="./assets/stars.png" alt="rating" class="d-block mx-auto rating-container px-5 py-3 mt-5 stars5">
       <h4 class="fw-bolder mt-1 line-height-60">5 Star Insurance Company</h4>
     </div>
-    <section class="d-flex container mt-4 justify-content-center">
-      <div class="me-5 ratings">
-        <div class="position-relative ratings-str">
-          <img src="./assets/stars.png" alt="rating" width="245" height="auto"/>
-          <span class="d-block position-absolute rating-content">"I've been with Gonzales Insurance for years and they always provide excellent service and competitive rates."</span>
-          <span class="d-block position-absolute fs-26 fw-bolder name-content">- John S.</span>
-          <span class="d-block position-absolute fs-6 recomended-content">highly recommended</span>
-          <div class="">
-            <img src="./assets/Ellipse 9.png" class="position-relative elps9">
-            <img src="./assets/jihn.png" alt="happy customers" class="position-absolute cst-1"/>
+    <section class="container mt-4 justify-content-center">
+      <div class="row">
+        <div class="me-5 ratings">
+          <div class="position-relative ratings-str">
+            <img src="./assets/stars.png" alt="rating" width="245" height="auto" class="stars"/>
+            <span class="d-block position-absolute rating-content">"I've been with Gonzales Insurance for years and they always provide excellent service and competitive rates."</span>
+            <span class="d-block position-absolute fs-26 fw-bolder name-content">- John S.</span>
+            <span class="d-block position-absolute fs-6 recomended-content">highly recommended</span>
+            <div class="">
+              <img src="./assets/Ellipse 9.png" class="position-relative elps9">
+              <img src="./assets/jihn.png" alt="happy customers" class="position-absolute cst-1"/>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="ms-6 ratings">
-        <div class="position-relative ratings-str">
-          <img src="./assets/stars.png" alt="rating" width="245" height="auto"/>
-          <span class="d-block position-absolute rating-content">"I had to file a claim recently and Gonzales Insurance was there every step of the way, making the process easy and stress-free."</span>
-          <span class="d-block position-absolute fs-26 fw-bolder name-content">- Maria G.</span>
-          <span class="d-block position-absolute fs-6 recomended-content">highly recommended</span>
-          <div class="">
-            <img src="./assets/Ellipse 9.png" class="position-relative elps9">
-            <img src="./assets/cst2.png" alt="happy customers" class="position-absolute cst-1"/>
+        <div class="ms-6 ratings d-none d-lg-block">
+          <div class="position-relative ratings-str">
+            <img src="./assets/stars.png" alt="rating" width="245" height="auto" class="stars"/>
+            <span class="d-block position-absolute rating-content">"I had to file a claim recently and Gonzales Insurance was there every step of the way, making the process easy and stress-free."</span>
+            <span class="d-block position-absolute fs-26 fw-bolder name-content">- Maria G.</span>
+            <span class="d-block position-absolute fs-6 recomended-content">highly recommended</span>
+            <div class="">
+              <img src="./assets/Ellipse 9.png" class="position-relative elps9">
+              <img src="./assets/cst2.png" alt="happy customers" class="position-absolute cst-1"/>
+            </div>
           </div>
         </div>
       </div>
@@ -218,7 +228,7 @@
             </div>
             <span class="ps-3 d-inline-block fw-bolder line-height-28 text-black-50 w-20rem">configuration for various insurance types, statistical</span>
           </div>
-          <div class="col-5 ms-3 in-sol-card position-relative ps-xl-4 pt-4">
+          <div class="col-5 mt-3 mt-md-0 ms-md-3 in-sol-card position-relative ps-xl-4 pt-4">
             <div class="d-flex">
               <h4 class="ps-xl-3 ps-1 pt-2 fw-bolder line-height-32">Insurance Agency Management Systems</h4>
               <div class="bg-elipse mb-xl-3 mb-5 me-3 rounded-circle"><img src="./assets/team-management 1.png" alt="principle"/></div>
@@ -232,7 +242,7 @@
             </div>
             <span class="ps-3 d-inline-block fw-bolder line-height-28 text-black-50 w-20rem">configuration for various insurance types, statistical</span>
           </div>
-          <div class="col-5 ms-3 mt-3 in-sol-card position-relative ps-xl-4 pt-4">
+          <div class="col-5 ms-md-3 mt-3 in-sol-card position-relative ps-xl-4 pt-4">
             <div class="d-flex">
               <h4 class="ps-xl-3 ps-1 pt-2 fw-bolder line-height-32">Claims Management Software Solutions</h4>
               <div class="bg-elipse mb-xl-3 mb-5 me-3 rounded-circle"><img src="./assets/principle 1.png" alt="principle"/></div>
@@ -241,29 +251,29 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <img src="./assets/sandp_homepage_apt@2x 1.png" width="574" height="571" alt="home" class="mt-7 pt-5 ms-xl-5 ps-xl-5 ins-sol-img" />
+      <div class="col-xl-4 col-12">
+        <img src="./assets/sandp_homepage_apt@2x 1.png" width="auto" height="auto" alt="home" class="mt-7 pt-5 ms-3 ms-xl-5 ps-xl-5 ins-sol-img" />
       </div>
     </div>
   </section>
   <section class="container font-epilogue mb-5 pb-5"> 
     <div class="row mb-5">
-      <div class="col-3 d-flex flex-wrap">
-        <div class="agent-logo-bg1 rounded-circle w-8rem h-8rem me-3 mt-2"><img src="./assets/insurance-palm-hand-holds-person-260nw-1741502102-removebg-preview 1.png" alt="" width="130" height="130"></div>
+      <div class="col-md-3 col-12 d-flex flex-wrap">
+        <div class="agent-logo-bg1 rounded-circle w-8rem h-8rem me-md-3 me-5 mt-2"><img src="./assets/insurance-palm-hand-holds-person-260nw-1741502102-removebg-preview 1.png" alt="" width="130" height="130"></div>
         <div class="agent-logo-bg2 rounded-circle w-8rem h-8rem ms-5"><img src="./assets/logo2016-06_4x-removebg-preview 1.png" alt="" width="130" height="130"></div>
-        <div class="agent-logo-bg3 rounded-circle w-8rem h-8rem ms-5 mt-1"><img src="./assets/insurance14-removebg-preview 1.png" alt=""  width="130" height="130"></div>
+        <div class="agent-logo-bg3 rounded-circle w-8rem h-8rem ms-7 mt-1"><img src="./assets/insurance14-removebg-preview 1.png" alt=""  width="130" height="130"></div>
       </div>
-      <div class="col-6 mt-6">
+      <div class="col-md-6 col-12 mt-6">
         <h1 class="fs-60 fw-bolder line-height-60 text-black text-center">Find an Agent</h1>
-        <span class="fs-5_5 line-height-60 text-center d-block">Speak to an independent agent about your insurance needs.</span>
+        <span class="fs-5_5 line-height-60 text-center d-block fw-bold">Speak to an independent agent about your insurance needs.</span>
         <div class="d-inline-block px-5 py-3 fw-bolder btn-theme-1 ms-14rem mt-5">
           <a class="text-black" href="#">Get Started</a>
         </div>
       </div>
-      <div class="col-3 d-flex flex-wrap">
-        <div class="agent-logo-bg4 rounded-circle w-8rem h-8rem me-3 mt-5"><img src="./assets/insuranceb-removebg-preview 1.png" alt="" width="130" height="130"></div>
+      <div class="col-md-3 col-12 d-flex flex-wrap">
+        <div class="agent-logo-bg4 rounded-circle w-8rem h-8rem me-md-3 me-5 mt-5"><img src="./assets/insuranceb-removebg-preview 1.png" alt="" width="130" height="130"></div>
         <div class="agent-logo-bg5 rounded-circle w-8rem h-8rem ms-5 mb-5"><img src="./assets/umbrella-logo-insurance-design-vector-260nw-1763185166-removebg-preview 1.png" alt="" width="130" height="130"></div>
-        <div class="agent-logo-bg6 rounded-circle w-8rem h-8rem ms-5 mt-3"><img src="./assets/insurance8-removebg-preview 1.png" alt="" width="130" height="130"></div>
+        <div class="agent-logo-bg6 rounded-circle w-8rem h-8rem ms-7 mt-3"><img src="./assets/insurance8-removebg-preview 1.png" alt="" width="130" height="130"></div>
       </div>
     </div>
   </section>
@@ -273,7 +283,7 @@
       <span class="d-inline-block fs-5_5 line-height-60 fw-bolder secondary-color letter-spacing-1 mt-5 pt-5 ms-2">request a quote or get in touch</span>
       <h1 class="fs-60 fw-bolder line-height-70 w-75 position-relative z-index-top">Get in touch with our specialist insurance brokers</h1>
       <div class="row">
-        <div class="col-1 mt-5 social-icons">
+        <div class="col-1 mt-5 social-icons ms-5 ms-md-0">
           <div class="d-flex flex-column mt-5 flex-wrap">
             <div class="bg-fb mt-2 rounded-circle w-5rem p-4 position-relative z-index-top">
               <img src="./assets/fb.png" alt="facebook">
@@ -290,10 +300,10 @@
             </div>
           </div>
         </div>
-        <div class="col-5">
+        <div class="col-lg-5 col-9">
           <img src="./assets/hero-1 (1) 1.png" alt="hero" class="position-relative z-index-top hero">
         </div>
-        <div class="col-5 position-relative z-index-top">
+        <div class="col-lg-5 col-12 position-relative z-index-top">
           <div class="form py-5 px-4 mt-7 ms-6 w-100 ms-sm-6">
             <div class="row">
               <div class="col-6">
@@ -312,32 +322,32 @@
             <span class="d-block mt-4">Phone No</span>
             <input type="tel" class="form-field w-100 h-56px">
             
-            <div class="d-inline-block mt-5 w-50">
+            <div class="d-block d-sm-inline-block mt-5 w-50">
               <input type="checkbox">
               <span class="ms-2">Notify your weekly progress</span>
             </div>
   
-            <div class="d-inline-block mt-4 ms-4 px-5 py-3 fw-bolder btn-theme-1 float-end mt-_3rem">
+            <div class="d-block d-sm-inline-block mt-sm-4 ms-sm-4 px-5 py-3 fw-bolder btn-theme-1 float-sm-end float-start mt-_3rem">
               <a class="text-black" href="#">Submit Now</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container mt-5 text-white position-relative z-index-top">
+    <div class="container mt-5 text-white position-relative z-index-top ms-3 ms-md-0">
       <div class="row bg-main contact-bar py-4">
-        <div class="col-4 ps-xl-5 d-flex flex-wrap">
+        <div class="col-lg-4 col-12 ps-xl-5 d-flex flex-wrap">
           <img src="./assets/_x34_1_Call_Center_Agent.png" alt="" class="h-4rem">
           <div>
             <span class="ms-3 fs-5 line-height-40">Phone no:</span><br/>
             <span class="ms-3 fw-bolder fs-5 line-height-28">(972) 243-4293</span>
           </div>
         </div>
-        <div class="col-4 d-flex">
+        <div class="col-lg-4 col-12 d-flex mt-5 mt-lg-0">
           <img src="./assets/pin.png" alt="" class="h-4rem">
           <span class="ms-3 mt-2 fw-bolder fs-5_5 line-height-28 d-block">5700 Tennyson Parkway, Suite 300,Plano, Texas,75024, USA</span>
         </div>
-        <div class="col-4 d-flex"> 
+        <div class="col-lg-4 col-12 d-flex mt-5 mt-lg-0"> 
           <img src="./assets/email (2) 1.png" alt="" class="h-4rem">
           <div>
             <span class="ms-xl-3 ms-1 fs-5 line-height-40">Email Address:</span><br />
@@ -352,21 +362,21 @@
     <div class="bg-footer">
       <div class="container">
         <div class="row">
-          <div class="col-3 position-relative font-epilogue">
+          <div class="col-lg-3 col-12 position-relative font-epilogue">
             <span class="d-block fw-bolder fs-3 line-height-28">
               Information
             </span> 
             <div class="bottom-bar mt-2"></div>
-            <span class="d-block fs-6 line-height-28 mt-5_5 mb-5 footer-color">
+            <span class="d-block fs-6 line-height-28 mt-5_5 mb-5 footer-color fw-bold">
               Gonzales Insurance has been committed to providing personalized service and customized insurance solutions to our customers. Our mission is to help protect what matters most to you.
             </span>
           </div>
-          <div class="col-5 font-epilogue ms-xl-5">
+          <div class="col-lg-5 col-12 font-epilogue ms-xl-5">
             <span class="d-block fw-bolder fs-3 line-height-28">
               Our Services
             </span>
             <div class="bottom-bar mt-2"></div>
-            <div class="d-flex mt-5_5 mb-5 footer-color">
+            <div class="d-flex mt-5_5 mb-5 footer-color fw-bold">
               <ul>
                 <li>Auto insurance</li>
                 <li class="mt-3">Home insurance</li>
@@ -379,14 +389,14 @@
               </ul>
             </div>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-12 mb-5 mb-lg-0">
             <div class="d-flex">
               <i class="fa-brands fa-facebook p-4 icon-container"></i>
               <i class="fa-brands fa-twitter p-4 icon-container ms-1"></i>
               <i class="fa-brands fa-linkedin-in p-4 icon-container ms-1"></i>
               <i class="fa-brands fa-instagram p-4 icon-container ms-1"></i>
             </div>
-            <img src="./assets/final-logo 2.png" alt="" class="mt-6 mb-5">
+            <img src="./assets/final-logo 2.png" alt="" class="mt-6 mb-5 d-none d-lg-block">
           </div>
         </div>
       </div>
@@ -394,15 +404,15 @@
     <div class="bg-footer-color">
       <div class="container font-epilogue">
         <div class="row py-4">
-          <div class="col-8">
+          <div class="col-lg-8 col-12 fw-bold">
             <span>
               2023 Gonzales Insurance © All rights reserved by <span class="secondary-color">DesignNearMe.com</span>
             </span>
           </div>
-          <div class="col-2">
+          <div class="col-lg-2 col-4 mt-3 mt-lg-0">
             <span>Privacy Pledge</span>
           </div>
-          <div class="col-2">Terms of Service</div>
+          <div class="col-lg-2 col-4 mt-3 mt-lg-0">Terms of Service</div>
         </div>
       </div>
     </div>

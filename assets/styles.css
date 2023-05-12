@@ -18,7 +18,10 @@ body {
   font-family: 'Font Awesome\ 5 Free';
 }
 
-
+.hero-bg {
+  background: url(./Ellipse_4.png) top right no-repeat !important;
+  background-size: contain !important;
+}
 
 .bg-light-grey {
   background: #FCFCFC;
@@ -35,6 +38,11 @@ body {
 .ms-6 {
   margin-left: 7rem;
 }
+
+.ms-7 {
+  margin-left: 9rem;
+}
+
 .mt-5_5{
   margin-top: 3.5rem !important;
 }
@@ -184,18 +192,17 @@ a {
 }
 
 .gif-position{
-  top: -5rem;
-  right: 0rem;
-  width: 68rem;
+  margin-top: -10rem;
+  width: calc(68rem - 10vw);
 }
 
 .call-box {
-  top: 50rem;
-  right: 16rem;
   background: #FFFFFF;
   border: 2px solid #1D63DC;
   box-shadow: 0px 4px 20px rgba(29, 99, 220, 0.5);
   border-radius: 10px;
+  width: 19rem;
+  margin-top: -9rem;
 }
 
 .btn-theme-1 {
@@ -275,7 +282,7 @@ hr {
 }
 
 .in-sol {
-  background: url(./in-sol.png);
+  background: url(./in-sol.png) no-repeat;
   background-size: cover;
   background-position: center top;
   width: 70rem;
@@ -393,7 +400,8 @@ hr {
 }
 
 .bg-footer{
-  background: url(./footer.png);
+  background: url(./footer.png) no-repeat;
+  background-size: cover;
 }
 
 .bg-footer-color {
